@@ -5,6 +5,7 @@
 # Functional Requirements: TBD. For now just do some simple stuff
 # Testing: 
 # Maintainer: Kem White
+# This came from APL
 
 print("Now is the time for all good men to come to the aid of their party.",end='\n')
 print("We love Python!")
