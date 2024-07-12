@@ -7,6 +7,7 @@
 # Maintainer: Kem White
 
 print("Now is the time for all good men to come to the aid of their party.",end='\n')
+print("We love Python!")
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -50,8 +51,9 @@ myVar = random.gauss(0,1)
 print(myVar)
 print(random.gauss(0,1))
 
-# Now computer the factorial of a number
+# Now compute the factorial of a number
 n=22
+
 a=math.factorial(n)
 print(a)
 print(math.factorial(n))
@@ -62,6 +64,14 @@ print('pi= ', math.pi)
 print('myAngle = ',myAngle)
 myCosine = math.cos(myAngle)
 print('myCosine = ',myCosine) 
+
+# Now compute the sine of an angle in degrees.
+myAngle = 30.*math.pi/180.0
+print('pi= ', math.pi)
+print('myAngle = ',myAngle)
+mySine = math.sin(myAngle)
+print('mySine = ',mySine) 
+
 
 #
 s=pd.Series([1, 3, 5, np.nan, 6, 8])
