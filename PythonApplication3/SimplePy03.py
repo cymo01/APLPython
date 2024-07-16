@@ -5,8 +5,6 @@
 # Functional Requirements: TBD. For now just do some simple stuff
 # Testing: 
 # Maintainer: Kem White
-# This came from APL
-# Created a new branch and modified the Python program
 
 print("Now is the time for all good men to come to the aid of their party.",end='\n')
 print("We love Python!")
@@ -15,6 +13,10 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import sys
 print(sys.version)
+print(sys.platform)
+print(2**100)
+x = 'Spam!'
+print(x*8)
 import random
 import math
 print("Hello, world?")
@@ -52,6 +54,7 @@ print(np.pi)
 myVar = random.gauss(0,1)
 print(myVar)
 print(random.gauss(0,1))
+print(random.uniform(2,5))
 
 # Now compute the factorial of a number
 n=22
@@ -79,5 +82,9 @@ print('mySine = ',mySine)
 s=pd.Series([1, 3, 5, np.nan, 6, 8])
 print(s,end='\n')
 
+
 myVar1 = math.factorial(22)
+#%%
 print('myVar1=', myVar1)
+print ("That's all folks!")
+#%%
