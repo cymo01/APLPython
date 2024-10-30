@@ -23,6 +23,7 @@ import math
 print("Hello, world?")
 print("Hello, World!")
 print("Now is the time for all good men to come to the aid of their party.",end='\n')
+print("Now is the time for all good men to come to the aid of their country.",end='\n')
 
 # Create 2 new lists height and weight
 #%%
