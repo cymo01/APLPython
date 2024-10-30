@@ -17,7 +17,7 @@ print(sys.platform)
 print(2**100)
 print(4*32.2)
 x = 'Spam!'
-print(x*8)
+print(x*9)
 import random
 import math
 print("Hello, world?")
