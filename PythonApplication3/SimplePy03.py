@@ -16,6 +16,7 @@ print(sys.version)
 print(sys.platform)
 print(2**100)
 print(4*32.2)
+print(10*10)
 x = 'Spam!'
 print(x*9)
 import random
